@@ -1,0 +1,36 @@
+﻿Build started 26/01/2016 15:45:05.
+     1>Project "C:\Users\Sergio\Desktop\Codigo_Examen\Data_Structures\Data_Structures.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\users\sergio\desktop\codigo_examen\data_structures\p2map.h(18): warning C4244: 'initializing' : conversion from 'const int' to 'float', possible loss of data
+                 c:\users\sergio\desktop\codigo_examen\data_structures\p2map.h(17) : while compiling class template member function 'p2Map<int,float>::NodeMap::NodeMap(const TYPE &,const TYPE &)'
+                 with
+                 [
+                     TYPE=int
+                 ]
+                 c:\users\sergio\desktop\codigo_examen\data_structures\p2map.h(37) : see reference to function template instantiation 'p2Map<int,float>::NodeMap::NodeMap(const TYPE &,const TYPE &)' being compiled
+                 with
+                 [
+                     TYPE=int
+                 ]
+                 c:\users\sergio\desktop\codigo_examen\data_structures\p2map.h(32) : see reference to class template instantiation 'p2Map<int,float>::NodeMap' being compiled
+                 c:\users\sergio\desktop\codigo_examen\data_structures\p2map.h(27) : while compiling class template member function 'p2Map<int,float>::NodeMap *p2Map<int,float>::push_back(const TYPE &,const TYPE &)'
+                 with
+                 [
+                     TYPE=int
+                 ]
+                 c:\users\sergio\desktop\codigo_examen\data_structures\main.cpp(212) : see reference to function template instantiation 'p2Map<int,float>::NodeMap *p2Map<int,float>::push_back(const TYPE &,const TYPE &)' being compiled
+                 with
+                 [
+                     TYPE=int
+                 ]
+                 c:\users\sergio\desktop\codigo_examen\data_structures\main.cpp(211) : see reference to class template instantiation 'p2Map<int,float>' being compiled
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sergio\Desktop\Codigo_Examen\Debug\Data_Structures.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Sergio\Desktop\Codigo_Examen\Debug\Data_Structures.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sergio\Desktop\Codigo_Examen\Debug\Data_Structures.lib" /MACHINE:X86 Debug\Main.obj
+         Data_Structures.vcxproj -> C:\Users\Sergio\Desktop\Codigo_Examen\Debug\Data_Structures.exe
+     1>Done Building Project "C:\Users\Sergio\Desktop\Codigo_Examen\Data_Structures\Data_Structures.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.10
